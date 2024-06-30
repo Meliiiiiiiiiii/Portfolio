@@ -1,0 +1,134 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #747AE0;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a i {
+    margin-right: 0.5rem;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+h2 {
+    color: #747AE0;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.skills-list, .experience-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li, .experience-list li {
+    background: #fff;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.skills-list li i, .experience-list li i {
+    margin-right: 1rem;
+    color: #747AE0;
+}
+
+.project-card {
+    background: #fff;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    color: #747AE0;
+    margin-top: 0;
+}
+/* Center the entire contact section */
+#contact {
+    text-align: center;
+}
+
+/* Style for the contact information list */
+.contact-info {
+    list-style: none;
+    padding: 0;
+    text-align: left; /* Align text to the left within the centered section */
+}
+
+.contact-info li {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    color: #333;
+    justify-content: center; /* Center content horizontally */
+}
+
+.contact-info li i {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    color: #747AE0;
+}
+
+.contact-info li a {
+    color: #747AE0;
+    text-decoration: none;
+}
+
+.contact-info li a:hover {
+    text-decoration: underline;
+}
+
+
+
+footer {
+    background-color: #747AE0;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
